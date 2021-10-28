@@ -429,6 +429,7 @@ class ComposerStaticInit43622d790ddceae3c106903dbc7fd8ba
         'Fruitcake\\Cors\\' => 
         array (
             0 => __DIR__ . '/..' . '/fruitcake/laravel-cors/src',
+            1 => __DIR__ . '/..' . '/barryvdh/laravel-cors/src',
         ),
         'Faker\\' => 
         array (
@@ -513,6 +514,7 @@ class ComposerStaticInit43622d790ddceae3c106903dbc7fd8ba
     public static $classMap = array (
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
+        'App\\Http\\Controllers\\API\\UsuarioController' => __DIR__ . '/../..' . '/app/Http/Controllers/API/UsuarioController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
         'App\\Http\\Controllers\\DefaultController' => __DIR__ . '/../..' . '/app/Http/Controllers/DefaultController.php',
         'App\\Http\\Controllers\\UsuarioController' => __DIR__ . '/../..' . '/app/Http/Controllers/UsuarioController.php',
@@ -525,6 +527,7 @@ class ComposerStaticInit43622d790ddceae3c106903dbc7fd8ba
         'App\\Http\\Middleware\\TrustHosts' => __DIR__ . '/../..' . '/app/Http/Middleware/TrustHosts.php',
         'App\\Http\\Middleware\\TrustProxies' => __DIR__ . '/../..' . '/app/Http/Middleware/TrustProxies.php',
         'App\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
+        'App\\Models\\API\\Usuario' => __DIR__ . '/../..' . '/app/Models/API/Usuario.php',
         'App\\Models\\DatabaseAccess' => __DIR__ . '/../..' . '/app/Models/DatabaseAccess.php',
         'App\\Models\\User' => __DIR__ . '/../..' . '/app/Models/User.php',
         'App\\Models\\Usuario' => __DIR__ . '/../..' . '/app/Models/Usuario.php',

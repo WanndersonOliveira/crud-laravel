@@ -21,6 +21,7 @@ class UsuarioController extends Controller
     }
 
 
+
     public function ler(){
     	$usuarioDAO = new UsuarioDAO();
 

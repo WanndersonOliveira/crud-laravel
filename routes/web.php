@@ -17,6 +17,19 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+//API
+Route::get('/API','App\Http\Controllers\API\UsuarioController@index');
+Route::get('/API/listar','App\Http\Controllers\API\UsuarioController@listar');
+Route::get('/API/ler','App\Http\Controllers\API\UsuarioController@ler');
+Route::get('/API/selecionar/{id}','App\Http\Controllers\API\UsuarioController@selecionar');
+Route::post('/API/cadastrar/','App\Http\Controllers\API\UsuarioController@cadastrar');
+Route::delete('/API/deletar/{id}','App\Http\Controllers\API\UsuarioController@deletar');
+Route::patch('/API/alterar/','App\Http\Controllers\API\UsuarioController@alterar');
+
+
+
+
+
 Route::get('default', 'App\Http\Controllers\DefaultController@index');
 Route::get('/formulario', function(){
 	return view('formulario');
